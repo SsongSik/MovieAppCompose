@@ -6,12 +6,12 @@
 
     <fragment
         android:id="@+id/feed_fragment"
-        android:name="com.test.composestudy.movieapp.features.feed.FeedFragment"
+        android:name="com.test.movieapp.features.feed.FeedFragment"
         android:label="FeedFragment"/>
 
     <fragment
         android:id="@+id/detail_fragment"
-        android:name="com.test.composestudy.movieapp.features.detail.DetailFragment"
+        android:name="com.test.movieapp.features.detail.DetailFragment"
         android:label="DetailFragment"/>
 
 </navigation>
