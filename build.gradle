@@ -3,10 +3,14 @@ buildscript {
         compose_ui_version = '1.1.1'
         dagger_version = '2.46.1'
         hilt_version = '1.0.0'
+        kotlin_version = '1.7.0'
+        nav_version = '2.5.3'
     }
     // 힐트 안드로이드 그래플 플러그인도 추가해야 합니다.
     dependencies {
         classpath "com.google.dagger:hilt-android-gradle-plugin:$dagger_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
     }
 }// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {

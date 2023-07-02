@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/feed_fragment">
+
+    <fragment
+        android:id="@+id/feed_fragment"
+        android:name="com.test.composestudy.movieapp.features.feed.FeedFragment"
+        android:label="FeedFragment"/>
+
+    <fragment
+        android:id="@+id/detail_fragment"
+        android:name="com.test.composestudy.movieapp.features.detail.DetailFragment"
+        android:label="DetailFragment"/>
+
+</navigation>
